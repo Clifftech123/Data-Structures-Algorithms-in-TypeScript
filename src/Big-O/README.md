@@ -23,10 +23,50 @@ Big-O notation is a way to describe the performance or complexity of an algorith
 ## 3 Types
 ### 1. Big O – Worst Case
 
+
+
 #### Ideal
-O(1) – Constant  
-O(log n) – Logarithmic  
-O(n) – Linear  
+
+* O(n) – Linear  
+The Linear time complexity is the most common time complexity. It means that the time it takes to run an algorithm is directly proportional to the size of the input data set. It is the best case scenario for an algorithm.  
+
+```ts
+
+function linearSearch(items: any[], value: any): number {
+  for (let i = 0; i < items.length; i++) {
+    if (items[i] === value) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+
+ // in this example the time it takes to run the algorithm is directly proportional to the size of the input data set.   
+
+
+
+```
+
+* O(1) – Constant 
+
+This constant is the number of steps it takes to complete the algorithm. It does not matter how big the input is, the algorithm will always take the same amount of time to complete. it  alway  takes first  item in the array and return it.  
+
+```ts
+function getFirstItem(items: any[]): any {
+  return items[0];
+  
+}
+
+// This example is constant because it does not matter how big the input is, the algorithm will always take the same amount of time to complete. it  alway  takes first  item in the array and return it.
+
+```
+
+
+
+O(log n) – Logarithmic 
+
+
 
 #### Acceptable
 O(n * log n) – Log Linear  
