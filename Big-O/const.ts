@@ -6,7 +6,7 @@
 
 const constant:string[] = ["Clifford", "Isaiah","Opoku"];
 
-// Functuon that get the array and prints the first element of the array
+// Function that get the array and prints the first element of the array
 
 function getFirstElement(array:string[]) :void {
 

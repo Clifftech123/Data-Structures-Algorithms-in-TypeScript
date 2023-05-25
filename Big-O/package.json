@@ -1,0 +1,16 @@
+{
+  "name": "big-o",
+  "version": "1.0.0",
+  "description": "Big-O notation is a way to describe the performance or complexity of an algorithm. It describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

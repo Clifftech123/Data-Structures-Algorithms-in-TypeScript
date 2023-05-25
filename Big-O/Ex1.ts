@@ -3,6 +3,7 @@ function anotherFunction(){
 
 }
 
+
 //  function to take an array as input and return a number
 function funCahllange (input:Array<any>): number{
     let a = 10; // O(1) //  
